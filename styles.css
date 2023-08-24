@@ -59,13 +59,11 @@ body {
 	padding: 0 4rem;
 }
 
-/* Firefox */
 * {
 	scrollbar-width: thin;
 	scrollbar-color: #8e8e8e #ffffff;
 }
 
-/* Chrome, Edge and Safari */
 *::-webkit-scrollbar {
 	width: 8px;
 	width: 8px;
