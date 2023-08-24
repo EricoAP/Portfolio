@@ -16,8 +16,8 @@ document.querySelector('#theme-switcher').addEventListener('click', switchTheme)
 const downloadButton = document.getElementById('downloadButton');
 
 downloadButton.addEventListener('click', () => {
-  const fileName = 'seu_curriculo.pdf'; // Coloque o nome do arquivo do currículo que será baixado
-  const fileURL = 'seu_curriculo.pdf'; // Coloque a URL ou caminho do arquivo do currículo
+  const fileName = 'seu_curriculo.pdf';
+  const fileURL = 'seu_curriculo.pdf';
 
   const link = document.createElement('a');
   link.href = fileURL;
