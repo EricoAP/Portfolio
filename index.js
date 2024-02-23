@@ -16,8 +16,8 @@ document.querySelector('#theme-switcher').addEventListener('click', switchTheme)
 const downloadButton = document.getElementById('downloadButton');
 
 downloadButton.addEventListener('click', () => {
-  const fileName = 'seu_curriculo.pdf';
-  const fileURL = 'seu_curriculo.pdf';
+  const fileName = 'Érico Amorim Pedrosa_CV.pdf';
+  const fileURL = 'Érico Amorim Pedrosa_CV.pdf';
 
   const link = document.createElement('a');
   link.href = fileURL;
