@@ -17,7 +17,7 @@ const downloadButton = document.getElementById('downloadButton');
 
 downloadButton.addEventListener('click', () => {
   const fileName = 'Érico Amorim Pedrosa_CV.pdf';
-  const fileURL = 'Érico Amorim Pedrosa_CV.pdf';
+  const fileURL = 'imgs/Érico Amorim Pedrosa_CV.pdf';
 
   const link = document.createElement('a');
   link.href = fileURL;
